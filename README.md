@@ -3,6 +3,7 @@
 A simple Evernote-like note taking app built with Electron, React, and SQLite.
 
 ## Features
+
 - Create and manage notebooks
 - Create, edit, and delete notes
 - Markdown editing with live preview
@@ -11,6 +12,7 @@ A simple Evernote-like note taking app built with Electron, React, and SQLite.
 - Data persistence with SQLite
 
 ## Tech Stack
+
 - **Electron** - Desktop app framework
 - **React** - UI framework
 - **TypeScript** - Type safety
@@ -21,28 +23,33 @@ A simple Evernote-like note taking app built with Electron, React, and SQLite.
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v18+)
 - npm
 
 ### Installation
+
 ```bash
 cd ~/test
 npm install
 ```
 
 ### Development
+
 ```bash
 npm run dev
 ```
 
 ### Build
+
 ```bash
 npm run build      # Build only
 npm run dist       # Build and package for distribution
 ```
 
 ## Project Structure
-```
+
+```bash
 ├── src/
 │   ├── main/          # Electron main process
 │   │   ├── index.ts   # Main entry, window + IPC
@@ -65,3 +72,7 @@ npm run dist       # Build and package for distribution
 ├── tsconfig.main.json
 └── vite.config.ts
 ```
+
+## License
+
+MIT
