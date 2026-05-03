@@ -30,7 +30,6 @@ A simple Evernote-like note taking app built with Electron, React, and SQLite.
 ### Installation
 
 ```bash
-cd ~/test
 npm install
 ```
 
